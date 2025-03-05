@@ -1,0 +1,42 @@
+name: calendar_test
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #icons
+  cupertino_icons: ^1.0.8
+
+  # Networking
+  dio: ^5.8.0+1
+
+  # Data Handling
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # Others
+  flutter_bloc: ^9.1.0
+  get_it: ^8.0.3
+  intl: ^0.20.2
+
+dev_dependencies:
+  # Code Generation
+  build_runner: ^2.4.13
+
+  # Freezed & JSON Serialization
+  freezed: ^2.5.7
+  json_serializable: ^6.9.0
+
+  # Linting & Code Quality
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+
